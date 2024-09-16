@@ -8,3 +8,7 @@ These example files were all pulled from my SaaS template: https://www.reactsaas
 Note: You will want to create a second Firebase project and configure the plugin again for production / live payments.
 
 ![Screenshot 2024-09-16 at 5 30 33 PM](https://github.com/user-attachments/assets/14b1f3db-75b6-40bd-86b1-5d9e2c002c42)
+
+The API is used so Firebase cloud functions can call Stripe to pull data (e.g pricing data)
+
+The Webhook is used so Stripe can tell Firebase when updates have been made (e.g a purchase)
